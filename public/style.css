@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'mZafir';
+    src: url('assets\\Zafir.otf');
+}
+
+@font-face {
+    font-family: 'mkomodo';
+    src: url('Komoda.otf');
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FFFFFF; */
+    height: 80vh;
+    width: 80vw;
+    margin-top: 7vh;
+}
+.title-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.desc-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.title-text {
+    
+    color:#1098F7;
+    /* color: #FFFFFF; */
+    font-size: 20vh;
+    margin: 0;
+}
+.desc-text {
+    font-family: 'mkomodo', serif;
+    letter-spacing: 15px;
+    color:#1098F7;
+    font-size: 5vh;
+}
